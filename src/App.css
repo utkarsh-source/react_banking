@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "New Tegomin";
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  min-height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
